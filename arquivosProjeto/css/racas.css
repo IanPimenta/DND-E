@@ -6,7 +6,7 @@ body {
 .header {
     position: fixed;
     display: flex;
-    background-color:  beige;
+    background-color: whitesmoke;
     flex-direction: row;
     align-items: center;
     width: 100%;
@@ -96,4 +96,34 @@ body {
     background-position: center;
     filter: brightness(0.6);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+.info-raca{
+    width: 100%;
+    height: 700px;
+    background-image: url(imagens/fundosite.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-raca .informacoes-raca .titulo-raca {
+    display: flex;
+    justify-content: center;
+}
+
+.info-raca .informacoes-raca{
+    width: 60%;
+    height: 80%;
+    font-size: 19px;
+}
+
+.info-raca .imagem-raca{
+    width: 35%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

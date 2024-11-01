@@ -6,7 +6,7 @@ body {
 .header {
     position: fixed;
     display: flex;
-    background-color:  beige;
+    background-color:  whitesmoke;
     flex-direction: row;
     align-items: center;
     width: 100%;
@@ -89,9 +89,9 @@ body {
 
 
 .home {
-    background-image: url(imagens/fundo-do-assoalho-de-madeira_53876-88628.avif);
+    background-image: url(imagens/fundosite.png);
     background-size: cover;
-    height: 1000px; 
+    height: 600px; 
     width: 100%; 
     border-top: white solid 66px;
     align-items: center;
